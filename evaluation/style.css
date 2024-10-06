@@ -1,0 +1,188 @@
+@media (min-width: 550px){}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #121212;
+    color: #f5f5f5;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+}
+img{
+    width: 100px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+a:hover{
+        text-decoration: underline;
+}
+.btn{
+    background-color: #00bcd4;
+    border: none;
+    padding: 10px 20px ;
+    color: #fff;
+    cursor: pointer;
+}
+.main{
+    background-image: url(/DALL┬ÀE\ 2024-05-22\ 03.21.59\ -\ A\ luxury\ car\ with\ a\ sleek\,\ modern\ design.\ The\ car\ is\ shiny\,\ with\ a\ metallic\ finish.\ It\ has\ elegant\ lines\,\ a\ futuristic\ look\,\ and\ luxury\ features\ like\ .webp);
+    background-size: cover;
+    text-align: center;
+    padding: 150px ;
+
+}
+.main-cnt{
+    background-color: #27292ad1;
+}
+.main-cnt h2{
+    font-size: 3rem;
+}
+.main-cnt p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.item{
+    padding: 50px 20px;
+    text-align: center;
+}
+.item h3{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.item-grid{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+
+}
+.item-card{
+    background-color: #222;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+.item-card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.item-card h4{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.item-card p{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #ccc;
+}
+.btn1{
+    background-color: #00bcd4;
+    border: none;
+    padding: 10px 20px ;
+    color: #fff;
+    cursor: pointer;
+    width: 350px;
+
+}
+.content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.contnt{
+    display: flex;
+    justify-content: space-around;
+}
+.cntnt-item{
+    text-align: center;
+    margin: 10px;
+}
+.cntnt-item p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.contact{
+    text-align: center;
+    background-color: #08080895;
+}
+.contact h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.contact-cntnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-cntnt img{
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+form label{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+form input{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #222;
+}
+form button{
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #00bcd4;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+}
+footer p{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+.t1{
+    display: flex;
+    margin-left: 90px;
+}
+.btn2{
+    display: flex;
+    padding: 10x;
+    font-size: 1.2rem;
+    background-color: #222;
+    color: #00bcd4;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+a{
+    color: #00bcd4;
+}
